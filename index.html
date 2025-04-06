@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>IA Simplifiée</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-grow text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+            >
+                <h1 class="m-0 text-primary">IA Simplifiée</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Accueil</a
+                    >
+                    <a href="#about" class="nav-item nav-link">À propos</a>
+                    <a href="#service" class="nav-item nav-link">Services</a>
+                    <a href="#team" class="nav-item nav-link">Équipe</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-primary p-0 mb-5">
+            <div
+                class="row g-0 align-items-center flex-column-reverse flex-lg-row"
+            >
+                <div class="col-lg-6 p-5 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-4 text-white mb-5">
+                        Utilisez l'IA dans la vie quotidienne : assistant
+                        personnel, planification, finances
+                    </h1>
+                    <div class="row g-4">
+                        <div class="col-sm-4">
+                            <div class="border-start border-light ps-4">
+                                <h2
+                                    class="text-white mb-1"
+                                    data-toggle="counter-up"
+                                >
+                                    45
+                                </h2>
+                                <p class="text-light mb-0">
+                                    Consultants experts
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="border-start border-light ps-4">
+                                <h2
+                                    class="text-white mb-1"
+                                    data-toggle="counter-up"
+                                >
+                                    41
+                                </h2>
+                                <p class="text-light mb-0">Projets terminés</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="border-start border-light ps-4">
+                                <h2
+                                    class="text-white mb-1"
+                                    data-toggle="counter-up"
+                                >
+                                    831
+                                </h2>
+                                <p class="text-light mb-0">
+                                    Clients satisfaits
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item position-relative">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-1.jpg"
+                                alt=""
+                            />
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">
+                                    Planification financière
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="owl-carousel-item position-relative">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-2.jpg"
+                                alt=""
+                            />
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">
+                                    Diversification de portefeuille
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="owl-carousel-item position-relative">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-3.jpg"
+                                alt=""
+                            />
+                            <div class="owl-carousel-text">
+                                <h1 class="display-1 text-white mb-0">
+                                    Investissement intelligent
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- About Start -->
+        <div id="about" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-flex flex-column">
+                            <img
+                                class="img-fluid rounded w-75 align-self-end"
+                                src="img/about-1.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="img-fluid rounded w-50 bg-white pt-3 pe-3"
+                                src="img/about-2.jpg"
+                                alt=""
+                                style="margin-top: -25%"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <p class="d-inline-block border rounded-pill py-1 px-4">
+                            À propos de nous
+                        </p>
+                        <h1 class="mb-4">
+                            Pourquoi nous faire confiance ? Découvrez qui nous
+                            sommes !
+                        </h1>
+                        <p>
+                            Notre équipe se consacre à aider les individus et
+                            les entreprises à utiliser l'IA dans leur vie
+                            quotidienne, que ce soit pour l'assistance
+                            personnelle, la planification ou la gestion
+                            financière. Nous offrons des solutions innovantes et
+                            personnalisées adaptées à vos besoins spécifiques,
+                            vous permettant de prendre des décisions éclairées
+                            pour améliorer votre quotidien.
+                        </p>
+                        <p class="mb-4">
+                            Grâce à notre expertise en planification financière,
+                            gestion de budget, et optimisation des tâches
+                            personnelles, nous mettons à votre disposition des
+                            outils d'IA puissants qui vous accompagnent dans
+                            votre vie de tous les jours.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle text-primary me-3"></i
+                            >Solutions sur mesure
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle text-primary me-3"></i
+                            >Accompagnement personnalisé
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle text-primary me-3"></i
+                            >Optimisation grâce à l'IA
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <div id="service" class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <p class="d-inline-block border rounded-pill py-1 px-4">
+                        Services
+                    </p>
+                    <h1>
+                        Solutions AI pour la Vie Quotidienne : Explorez nos
+                        Services
+                    </h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-user-cog text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Assistant Personnel AI</h4>
+                            <p class="mb-4">
+                                Utilisez l'intelligence artificielle pour gérer
+                                vos tâches quotidiennes, organiser vos
+                                rendez-vous et améliorer votre productivité.
+                                Notre service d'assistant personnel AI vous aide
+                                à automatiser les processus et à gagner du
+                                temps.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-calendar-check text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Planification avec l'AI</h4>
+                            <p class="mb-4">
+                                Optimisez votre emploi du temps avec l'aide de
+                                l'IA. Notre service de planification assistée
+                                par IA permet de gérer vos activités et
+                                priorités de manière intelligente et efficace,
+                                afin de maximiser votre temps et atteindre vos
+                                objectifs.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item bg-light rounded h-100 p-5">
+                            <div
+                                class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4"
+                                style="width: 65px; height: 65px"
+                            >
+                                <i
+                                    class="fa fa-solid fa-wallet text-primary fs-4"
+                                ></i>
+                            </div>
+                            <h4 class="mb-3">Gestion Financière AI</h4>
+                            <p class="mb-4">
+                                Prenez le contrôle de vos finances avec des
+                                outils d'IA avancés pour l'analyse des dépenses,
+                                l'élaboration de budgets et la planification de
+                                l'avenir. Notre service de gestion financière
+                                assistée par IA vous aide à optimiser vos
+                                ressources et à prendre des décisions éclairées.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid bg-primary overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text py-5 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <p
+                                class="d-inline-block border rounded-pill text-light py-1 px-4"
+                            >
+                                Fonctionnalités
+                            </p>
+                            <h1 class="text-white mb-4">
+                                Pourquoi Choisir Nos Services
+                            </h1>
+                            <p class="text-white mb-4 pb-2">
+                                Nous ne sommes pas simplement des conseillers,
+                                mais vos partenaires dans l'intégration de
+                                l'intelligence artificielle dans votre vie
+                                quotidienne. Avec un engagement envers
+                                l'excellence et le bien-être financier, nous
+                                offrons une gamme complète de services adaptés à
+                                vos besoins spécifiques. Que ce soit pour un
+                                assistant personnel AI, une planification
+                                intelligente, ou la gestion de vos finances via
+                                des outils d'IA, nous vous aidons à atteindre
+                                vos objectifs avec une approche personnalisée.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 pe-lg-0 wow fadeIn"
+                        data-wow-delay="0.5s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/feature.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Team Start -->
+        <div id="team" class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <p class="d-inline-block border rounded-pill py-1 px-4">
+                        Équipe
+                    </p>
+                    <h1>Notre Équipe Expérimentée</h1>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Jean Dupont</h5>
+                                <p class="text-primary">Consultant AI</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Michel Lefevre</h5>
+                                <p class="text-primary">Planification AI</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Marie Lemoine</h5>
+                                <p class="text-primary">
+                                    Gestion Financière AI
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="team-item position-relative rounded overflow-hidden"
+                        >
+                            <div class="overflow-hidden">
+                                <img
+                                    class="img-fluid"
+                                    src="img/team-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="team-text bg-light text-center p-4">
+                                <h5>Claire Petit</h5>
+                                <p class="text-primary">Expert AI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <p class="d-inline-block border rounded-pill py-1 px-4">
+                        Témoignage
+                    </p>
+                    <h1>Ce que disent nos clients !</h1>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-1.jpg"
+                            style="
+                                width: 100px;
+                                height: 100px;
+                                object-fit: cover;
+                            "
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                Je ne saurais exprimer à quel point je suis
+                                reconnaissant pour l'accompagnement que j'ai
+                                reçu. Leur expertise dans l'utilisation de l'IA
+                                pour la gestion des finances personnelles et la
+                                planification a fait toute la différence dans ma
+                                vie. Grâce à leur aide, j'ai pu mettre en place
+                                un plan clair pour ma vie financière et je me
+                                sens plus confiant pour l'avenir.
+                            </p>
+                            <h5 class="mb-1">Pierre L.</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-2.jpg"
+                            style="
+                                width: 100px;
+                                height: 100px;
+                                object-fit: cover;
+                            "
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                Avant de découvrir ce service, j'étais hésitant
+                                à utiliser l'IA pour mes finances personnelles,
+                                mais leur équipe m'a rapidement mis à l'aise.
+                                Leur expertise m'a permis de mieux comprendre
+                                comment l'IA peut optimiser mes finances et ma
+                                planification. Je me sens désormais en parfaite
+                                maîtrise de mes objectifs financiers.
+                            </p>
+                            <h5 class="mb-1">Michel D.</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4"
+                            src="img/testimonial-3.jpg"
+                            style="
+                                width: 100px;
+                                height: 100px;
+                                object-fit: cover;
+                            "
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <p>
+                                Grâce à l'IA, j'ai pu recevoir des conseils
+                                personnalisés pour mieux gérer mes finances et
+                                améliorer ma planification personnelle. Leur
+                                accompagnement m'a permis de prendre des
+                                décisions éclairées et d'optimiser mes
+                                investissements. Je suis maintenant beaucoup
+                                plus confiant quant à mon avenir financier.
+                            </p>
+                            <h5 class="mb-1">Thomas P.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Contact Start -->
+        <div id="contact" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div
+                            class="h-100 bg-light rounded d-flex align-items-center p-5"
+                        >
+                            <div
+                                class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                                style="width: 55px; height: 55px"
+                            >
+                                <i
+                                    class="fa fa-map-marker-alt text-primary"
+                                ></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Adresse</p>
+                                <h5 class="mb-0">
+                                    100 Rue de Chassin Escalier de droite, 64600
+                                    Anglet, France
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div
+                            class="h-100 bg-light rounded d-flex align-items-center p-5"
+                        >
+                            <div
+                                class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                                style="width: 55px; height: 55px"
+                            >
+                                <i class="fa fa-phone-alt text-primary"></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Appelez-nous maintenant</p>
+                                <h5 class="mb-0">+33610373766</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div
+                            class="h-100 bg-light rounded d-flex align-items-center p-5"
+                        >
+                            <div
+                                class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+                                style="width: 55px; height: 55px"
+                            >
+                                <i class="fa fa-envelope-open text-primary"></i>
+                            </div>
+                            <div class="ms-4">
+                                <p class="mb-2">Envoyez-nous un message</p>
+                                <h5
+                                    style="
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        max-width: 150px;
+                                    "
+                                    class="mb-0"
+                                >
+                                    ia_simplifiée@gmail.com
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="bg-light rounded p-5">
+                            <p
+                                class="d-inline-block border rounded-pill py-1 px-4"
+                            >
+                                Contactez-nous
+                            </p>
+                            <h1 class="mb-4">
+                                Vous avez une question ? Contactez-nous !
+                            </h1>
+                            <form action="thanks.html" method="get">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="name"
+                                                placeholder="Votre nom"
+                                                required
+                                            />
+                                            <label for="name">Votre nom</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                id="email"
+                                                placeholder="Votre email"
+                                                required
+                                            />
+                                            <label for="email"
+                                                >Votre email</label
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control"
+                                                id="subject"
+                                                placeholder="Sujet"
+                                                required
+                                            />
+                                            <label for="subject">Sujet</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control"
+                                                placeholder="Laissez un message ici"
+                                                id="message"
+                                                style="height: 100px"
+                                                required
+                                            ></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-primary w-100 py-3"
+                                            type="submit"
+                                            id="submit"
+                                        >
+                                            Envoyer le message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="h-100" style="min-height: 400px">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.4646187307885!2d-1.5295835355689593!3d43.49264219929257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd516bc29e8ebfcf%3A0x7ec2cc576da6b0a0!2sFrench%20Finance!5e0!3m2!1suk!2sua!4v1743933919462!5m2!1suk!2sua"
+                                class="rounded w-100 h-100"
+                                frameborder="0"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">IA Simplifiée</h5>
+                        <p>
+                            Restez connecté avec nous et explorez plus sur notre
+                            service de conseil en utilisation de l'IA dans la
+                            vie quotidienne : assistant personnel, planification
+                            et finance. Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Ipsam exercitationem, sequi
+                            dolores reiciendis illo enim iste labore quasi
+                            aliquam suscipit corrupti, aliquid odio itaque ipsum
+                            similique dolorem incidunt modi delectus ?
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Adresse</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>
+                            Adresse 100 Rue de Chassin Escalier de droite, 64600
+                            Anglet
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+33610373766
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >ia_simplifiée@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-light mb-4">Liens rapides</h5>
+                        <a class="btn btn-link" href="index.html">Accueil</a>
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Confidentialité</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Politique de cookies</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Termes & Conditions</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentement aux cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Ce site web utilise des cookies pour vous offrir une
+                    expérience de navigation supérieure et plus pertinente.
+                    <a href="cookie-policy.html">En savoir plus...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accepter</button>
+                <button class="cookie-button" id="declineBtn">Refuser</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
